@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.subspec 'SinaWeibo' do |sinaweibos|
     sinaweibos.requires_arc = true
     sinaweibos.dependency 'ShareSDKSlim/Core'
-    sinaweibos.frameworks = 'ImageIO'
+    sinaweibos.frameworks = 'ImageIO','ADSupport'
     sinaweibos.source_files   = "libraries/extends/SinaWeiboSDK/*.h"
     sinaweibos.vendored_libraries = 'libraries/extends/SinaWeiboSDK/libWeiboSDK.a'
     sinaweibos.resources = "libraries/extends/SinaWeiboSDK/WeiboSDK.bundle"
