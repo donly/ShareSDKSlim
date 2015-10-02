@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ShareSDKSlim'
-  s.version  = '3.1.1'
+  s.version  = '3.1.1.a'
   s.summary  = 'ShareSDK is a SNS share kit.'
   s.homepage = 'https://github.com/CodeEagle/ShareSDKSlim'
   s.author   = { 'CodeEagle' => 'lvevsany@163.com' }
